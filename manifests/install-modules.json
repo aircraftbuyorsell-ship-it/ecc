@@ -1186,6 +1186,35 @@
       "stability": "stable"
     },
     {
+      "id": "aviation-domain",
+      "kind": "skills",
+      "description": "Aviation sales domain skills: aircraft listing writing and listing fraud screening for aircraft sales groups and marketplaces.",
+      "paths": [
+        "skills/aircraft-listing-writer",
+        "skills/listing-scam-screening"
+      ],
+      "targets": [
+        "claude",
+        "claude-project",
+        "cursor",
+        "antigravity",
+        "antigravity-home",
+        "codex",
+        "copilot",
+        "opencode",
+        "codebuddy",
+        "joycode",
+        "qwen",
+        "zed"
+      ],
+      "dependencies": [
+        "platform-configs"
+      ],
+      "defaultInstall": false,
+      "cost": "light",
+      "stability": "beta"
+    },
+    {
       "id": "document-processing",
       "kind": "skills",
       "description": "Document processing, conversion, and translation skills.",
