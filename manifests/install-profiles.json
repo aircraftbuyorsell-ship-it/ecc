@@ -70,6 +70,21 @@
         "social-distribution"
       ]
     },
+    "aviation": {
+      "description": "Aviation sales setup: aircraft listing writing, listing fraud screening, business and social content, and document processing, without the programming-language packs.",
+      "modules": [
+        "rules-core",
+        "agents-core",
+        "commands-core",
+        "hooks-runtime",
+        "platform-configs",
+        "workflow-quality",
+        "business-content",
+        "social-distribution",
+        "document-processing",
+        "aviation-domain"
+      ]
+    },
     "full": {
       "description": "Complete ECC install with all currently classified modules.",
       "modules": [
@@ -101,6 +116,7 @@
         "devops-infra",
         "machine-learning",
         "supply-chain-domain",
+        "aviation-domain",
         "document-processing",
         "documentation-context",
         "hermes-hooks",

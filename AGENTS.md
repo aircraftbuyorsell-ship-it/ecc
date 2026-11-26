@@ -1,6 +1,6 @@
 # ECC — Agent Instructions
 
-This is a **production-ready AI coding plugin** providing 72 specialized agents, 328 skills, 99 commands, and automated hook workflows for software development.
+This is a **production-ready AI coding plugin** providing 73 specialized agents, 330 skills, 99 commands, and automated hook workflows for software development.
 
 **Version:** 2.2.3
 
@@ -62,6 +62,7 @@ This is a **production-ready AI coding plugin** providing 72 specialized agents,
 | php-reviewer | PHP/PSR-12, Eloquent, security review | PHP code changes |
 | harmonyos-app-resolver | HarmonyOS ArkTS/ArkUI code and API review | HarmonyOS/OpenHarmony application changes |
 | healthcare-reviewer | Clinical safety, PHI compliance, CDSS accuracy | Healthcare, EMR/EHR application code |
+| listing-reviewer | Aircraft listing completeness, consistency, and fraud signals | Moderating aircraft sale listings |
 | a11y-architect | WCAG 2.2 accessibility architecture | Designing UI components, accessibility audits |
 | code-architect | Feature architecture blueprints from codebase patterns | New features needing implementation design |
 | network-architect | Enterprise multi-site network architecture | Complex network design decisions |
@@ -107,6 +108,7 @@ Use agents proactively without user prompt:
 - PHP changes → **ecc:php-reviewer**
 - Flutter/Dart changes → **ecc:flutter-reviewer**
 - Healthcare/clinical code → **ecc:healthcare-reviewer**
+- Aircraft sale listing moderation → **ecc:listing-reviewer**
 - UI component design → **ecc:a11y-architect**
 - Open-source release prep → **ecc:opensource-forker** → **ecc:opensource-sanitizer** → **ecc:opensource-packager**
 - Agent output quality check → **ecc:agent-evaluator**
@@ -202,8 +204,8 @@ Troubleshoot failures: check test isolation → verify mocks → fix implementat
 ## Project Structure
 
 ```
-agents/          — 72 specialized subagents
-skills/          — 328 workflow skills and domain knowledge
+agents/          — 73 specialized subagents
+skills/          — 330 workflow skills and domain knowledge
 commands/        — 99 slash commands
 hooks/           — Trigger-based automations
 rules/           — Always-follow guidelines (common + per-language)

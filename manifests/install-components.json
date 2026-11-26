@@ -383,6 +383,14 @@
       ]
     },
     {
+      "id": "capability:aviation",
+      "family": "capability",
+      "description": "Aviation sales domain skills: aircraft listing writing and listing fraud screening.",
+      "modules": [
+        "aviation-domain"
+      ]
+    },
+    {
       "id": "capability:documentation-context",
       "family": "capability",
       "description": "Optional durable domain-context and ADR handoff workflow.",

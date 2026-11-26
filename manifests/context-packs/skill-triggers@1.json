@@ -1,7 +1,7 @@
 {
   "coverage": {
-    "skills": 328,
-    "withTriggers": 43
+    "skills": 330,
+    "withTriggers": 45
   },
   "generatedAt": "2026-10-30T00:01:34.569Z",
   "id": "skill-triggers@1",
@@ -10,7 +10,7 @@
     "id": "hand-seeded",
     "source": "manual-curation-pending-regeneration"
   },
-  "registryDigest": "e1ae66afd0ca1437da7cb799d413a74a8f5171f285074c9de8bbe2630dc02265",
+  "registryDigest": "2ddfbb57f17b3a1e4276fe8ea67a940627c05f39882f3ef0da554b4d3a7001fc",
   "schemaVersion": 1,
   "triggers": {
     "skill:agent-runtime-gateway-smoke-test": [
@@ -19,6 +19,16 @@
       "agent task stuck after dispatch",
       "verify gateway tunnel",
       "restore web api after agent test"
+    ],
+    "skill:aircraft-listing-writer": [
+      "write an aircraft for sale listing",
+      "aircraft listing spec sheet",
+      "standardize an aircraft sale post",
+      "what to include in my aircraft listing",
+      "ttaf smoh avionics listing format",
+      "facebook group aircraft sale post",
+      "helicopter for sale listing",
+      "turboprop or jet sale listing"
     ],
     "skill:api-connector-builder": [
       "add api integration",
@@ -223,6 +233,17 @@
       "autoscaling config",
       "configmap secrets"
     ],
+    "skill:listing-scam-screening": [
+      "is this aircraft listing a scam",
+      "screen aircraft listing for fraud",
+      "fake escrow aircraft sale",
+      "deposit scam aircraft for sale",
+      "stolen photos aircraft listing",
+      "registration mismatch aircraft seller",
+      "fake 8130-3 or easa form 1",
+      "overpayment scam aircraft seller",
+      "moderate aircraft sales group posts"
+    ],
     "skill:orch-fix-defect": [
       "fix a bug",
       "broken behavior",
@@ -388,5 +409,5 @@
       "lovable style visual editing"
     ]
   },
-  "triggersDigest": "b00be40af04a07aec545fb55cd23ca3fce77d0613ca392a3177bbc2f0238fc9c"
+  "triggersDigest": "17d516e7f156c7c74cb6b3f4c41d71692776cd462928efc46e9157d594a364d2"
 }
